@@ -6,12 +6,6 @@
 *.xcworkspace/
 *.gitattributes
 
-# Ignore build logs and temp files
-*.log
-*.log.*
-*.swp
-*.swo
-
 # Ignore Binaries, Build, and Intermediate folders (Generated files)
 [Bb]inaries/
 [Ii]ntermediate/
@@ -19,8 +13,16 @@
 [Oo]bj/
 Build/
 
+# Ignore all Marketplace or otherwise third party content
+[Cc]ontent/
+![Cc]ontent/Lighthall/
+
 # Ignore the saved directory (local temporary files, logs, etc.)
 [Ss]aved/
+*.log
+*.log.*
+*.swp
+*.swo
 
 # Ignore config files that are platform-specific or user-specific
 *.VC.db
