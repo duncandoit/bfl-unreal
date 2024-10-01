@@ -1,0 +1,29 @@
+Where I left off:
+
+Seems like the bitmask integer values are +1 of the Status enum values. Needs testing
+
+
+TODOs:
+- Make the TurnFlow events happen when requested by a PlayerController (DidEnd finishes animating tunr-end screen then requests the GameMode start the next turn)
+- Display StatusEffects on HeroHUD
+- Finish Arryn's abilities
+- Create the other heroes
+- Allow hero to pickup the objective orb
+- Allow hero to drop objective orb in socket
+- Make a controllable third spawn area
+
+
+UI Review
+The windows, popups and panels all have the backgrounds, borders, corners and decorations as one texture so it's impossible to change the size or shape without making it look stretched. It also means that mixing assets together to come up with new applications for them is nearly impossible. 
+
+
+
+All the buttons in each of their states have a very dark tint and are rendered with a grey rounded box - meaning I had to go through each of these values on each of the many buttons to make them look like they were shown in the demo. Not a showstopper, but pretty annoying. 
+
+
+
+I will say that the progress bars are nice, but that's not enough to justify the price as I wanted a full UI solution. 
+
+
+
+This is just one of those situations where it looks good in the demo but has no real world use. 

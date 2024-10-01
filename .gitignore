@@ -14,7 +14,7 @@
 Build/
 
 # Ignore all Marketplace or otherwise third party content
-[Cc]ontent/
+[Cc]ontent/**
 
 # Allow the Lighthall directory within the Content directory
 ![Cc]ontent/Lighthall/
