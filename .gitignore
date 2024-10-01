@@ -15,7 +15,10 @@ Build/
 
 # Ignore all Marketplace or otherwise third party content
 [Cc]ontent/
+
+# Allow the Lighthall directory within the Content directory
 ![Cc]ontent/Lighthall/
+![Cc]ontent/Lighthall/**
 
 # Ignore the saved directory (local temporary files, logs, etc.)
 [Ss]aved/
@@ -91,14 +94,6 @@ desktop.ini
 *__MACOSX
 *desktop.ini
 
-# Ignore lock files
-*.lock
-
-
 # If using plugins, exclude their binaries and intermediate folders
 Plugins/*/Binaries/
 Plugins/*/Intermediate/
-
-# If using marketplace content, exclude binaries and intermediates from those folders too
-Content/Marketplace/*/Binaries/
-Content/Marketplace/*/Intermediate/
